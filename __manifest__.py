@@ -10,7 +10,10 @@
     "maintainer": "Akretion",
     "category": "Point of sale",
     "depends": ["point_of_sale"],
-    "data": ["views/pos_config.xml"],
+    "data": [
+        "views/assets.xml",
+        "views/pos_config.xml",
+    ],
     "website": "https://github.com/OCA/pos",
     "installable": True,
 }
